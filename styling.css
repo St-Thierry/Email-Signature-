@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agency FB', sans-serif;
+}
+
+body{
+    margin-left: 5vw;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    width: 50vw;
+    height: 30vh;
+    align-items: center;
+   }
+
+.logo img{
+    width: 20vw;
+    height: 30vh;
+}
+
+p span{
+    font-weight: bold;
+    color: red;
+}
+
+.icon{
+    width: 1.5vw;
+    height: 1.5vh;
+    margin-right: 1vw;
+}
+
+.banner{
+    width: 90vw;
+    height: 50vh;
+    margin-top: 5vh;
+}
+
+#weighted{
+    font-weight: bold;
+}
+
+span .icon{
+    display: inline-flex;
+}
